@@ -3,7 +3,17 @@
     flex: 0 0 auto;
 }
 
+/* classe jolly */
+.col{
+    flex-grow: 1;
+    flex-basis: 0;
+}
 /* classi col */
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .col-1{
     width: calc((100%/12)*1 );
 }
@@ -75,6 +85,6 @@
 .col-offset-11{
     margin-left: calc((100%/12) * 11);
 }
-.col-offset-12{
+/* .col-offset-12{
     margin-left: calc((100%/12) * 12);
-}
+} */

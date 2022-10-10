@@ -1,5 +1,14 @@
 .box{
-    background-color: blue;
+    background-color: cornflowerblue;
     color: white;
     border: 1px solid white;
+    text-align: center;
+    padding: 20px;
+}
+.nested{
+    background-color: green;
+    color: white;
+    border: 1px solid cornflowerblue;
+    text-align: center;
+    padding: 10px;
 }
